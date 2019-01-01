@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'handwriting';
+    src: url('fonts/journal.woff2') format('woff2'),
+         url('fonts/journal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'typewriter';
+    src: url('fonts/veteran_typewriter.woff2') format('woff2'),
+         url('fonts/veteran_typewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	background-color: black;
+}
+.LoadingScreen
+{    position: fixed;
+    top: 38%;
+    left: 30%;
+}
+.mainPage
+{
+	display: none;
+}
+.bodyContainer
+{
+	    padding-top: 143px;
+    /* margin-top: 114px; */
+    width: 70%;
+    margin-left: 15%;
+}
+#Logo
+{
+	    margin-left: 73%;
+}
+.button
+{
+	width: 100%;
+	height: 50%;
+	background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font : 2em "typewriter", sans-serif;
+    cursor:pointer;
+}
+.headerBox
+{
+    margin-top: -10px;
+    width: 100%;
+    /* margin-left: 15%; */
+    position: fixed;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: black;
+}
+.SearchArea
+{
+    margin-left: 11%;
+    margin-right: 14%;
+    padding-top: 4%;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 75% 20%;
+}
+.searchBox
+{
+	height: 50%;
+    border-color: black;
+    border-radius: 10px;
+
+}
+.TrendingArea
+{
+    margin-bottom: 16px;
+}
+.TrendingArea > #btnTrending
+{
+	font-size: 20px;
+	    width: 20%;
+} 
+#footerBox
+{
+	    margin-top: 2%;
+
+}
+#footerBox> .button
+{
+	width: 20%;
+    margin-left: 40%;
+    font-size: 22px;
+}
+.container
+{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+h1 {
+  color: white;
+
+  font : 60px "typewriter", sans-serif;
+}
+#endMessage
+{
+	color:white;
+	font : 30px "typewriter", sans-serif;
+}
